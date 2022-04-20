@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	border-style: solid;
+	border-color: lightblue;
+}
+.verde{
+	background-color: chartreuse;
+	height: 5rem;
+	border-style: solid;
+	border-color: lightblue;
+}
+.morado{
+	background-color:  purple;
+	height: 30rem;
+	border-style: solid;
+	border-color: lightblue;
+}
+.naranja {
+	background-color:  orange;
+	height: 35rem;
+	border-style: solid;
+	border-color: lightblue;
+}
+.rojo{
+	background-color:  red;
+	height: 35rem;
+	border-style: solid;
+	border-color: lightblue;
+}
+.rosado{
+	background-color:  pink;
+	height: 30%;
+	border-style: solid;
+	border-color: lightblue;
+}
+.amarillo{
+     background-color:  yellow;
+	 height: 70%;
+	 border-style: solid;
+	border-color: lightblue;
+}
+.negro{
+	background-color:  black;
+	 height: 12rem;
+	 border-style: solid;
+	border-color: lightblue;
+}
+/*aca comienza mi consulta de medios*/
+
+@media only screen and (max-width: 600px) {
+ .morado {
+    background-color: lightblue;
+  }
+ .verde{
+ 	background-color: white;
+ }
+}
+
